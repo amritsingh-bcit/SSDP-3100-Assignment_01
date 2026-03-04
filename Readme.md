@@ -7,7 +7,7 @@
 - Clone the repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/amritsingh-bcit/SSDP-3100-Assignment_01
 cd project-folder
 ```
 
