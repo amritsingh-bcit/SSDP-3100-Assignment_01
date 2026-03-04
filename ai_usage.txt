@@ -1,0 +1,21 @@
+Tool Used:
+- ChatGPT
+
+What I Used It For:
+- Debugging my Express API router
+- Understanding why my projects.json was not being fetched
+- Fixing issues related to routing and file paths
+- Clarifying how GET /api/projects should return JSON properly
+
+Specific Prompts / Questions I Asked:
+- "I am not able to fetch projects in projects.html"
+- "Why is GET /api/projects returning 304?"
+- Shared my apiRouter code and asked why projects.json was not loading
+- Asked how to properly structure the API route using fs and path
+
+What I Changed After Receiving AI Output:
+- Corrected my API route structure for GET /api/projects
+- Ensured projects.json was being read using path.join properly
+- Verified that app.use('/api', apiRouter) was set correctly in server.js
+- Confirmed my fetch('/api/projects') path matched the backend route
+- Improved error handling for missing projects

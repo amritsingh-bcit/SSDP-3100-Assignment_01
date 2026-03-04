@@ -1,0 +1,40 @@
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 0.75em;
+  margin-bottom: 1em;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 0.75em;
+  margin-bottom: 1em;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  margin: 0.25em;
+  background: #eee;
+  border-radius: 4px;
+}
+#projects-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+
+#projectDetails {
+  margin-top: 2em;
+  padding: 1em;
+  border: 2px solid #444;
+}
+
